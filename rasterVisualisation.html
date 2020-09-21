@@ -47,9 +47,10 @@
 
 								</header>
 								<div class="image main"><img src="images/goneWithTheWind.PNG" alt="" /></div>
-								<p>“It is more satisfying to cycle in tailwind than headwind, so why should leisure cyclist fight the wind?”</p>
-								<p>It was this question, which started a mad chase for the impossible: Always cycling with the wind in your back. Naturally, the direction of the wind cannot be reprogrammed, so instead the route with the most tail wind was calculated. The created route would end at a train station, which allowed the cyclist to skip the windy trip back home.</p>
-								<p>The tool would also alert the user of other weather events like high risk of rain or the sun setting and had the option to make the route go through nearby parks. </p>
+								<p>Doing a visual comparison of large raster datasets with a high resolution and/or small scale is a time-consuming task. To speed up this process I developed an interactive tool for this task. There are however some challenges to this development, the main one being the size of the dataset. </p>
+								<p>Visualizing the entirety of the dataset would either crash most software or lead to a slow performance. As a work around for this issue the world was divided into smaller raster data tiles. Only the tiles currently being displayed would be loaded and these would be colored at the client. </p>
+								<p>The advantage of coloring them at the client was that the same tile could be recolored as the user was panning around. This way the map could always be colored based on the maximum and minimum values of the current map extent.</p>
+								<p>Two such maps were placed next to each other so that they could be easily compared.</p>
 								<h2>Utilized technologies</h2>
 
 								<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/e31d98f34354527ff98d6a0230398a"/></a><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
